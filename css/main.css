@@ -3,20 +3,97 @@
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+* {
+	border: 1px solid #999;
+}
+body {
+	padding: 0;
+}
+
+header {
+	height: 45px;
+	background-color: #F0F2F4;
+}
+
+
+section {
+	width: 100%;
+	display: block;
+
+}
+
+nav ul li {
+	display: inline-block;
+}
+
+/* banner
+****************************************/
+
+.banner {
+	background: url(../img/fon1.png) no-repeat top center;
+	background-size: cover;
+	text-align: center;
+}
 
 
 
+/* our_services
+****************************************/
+.info {
+	text-align: center;
+	display: block;
+}
+
+
+/* our_approch
+****************************************/
+#our_approch {
+	background-color: #F3F3F3;
+}
+
+span {
+	display: inline-block;
+	position: relative;
+	width: 40px;
+	height: 40px;
+	background-color: #26C851;
+}
+
+.position_right span {
+	background-color: #2432C7;
+}
+
+
+/* our_work
+****************************************/
+#our_work {
+	background-color: #DE2B24;
+}
+
+/* analysis
+****************************************/
+#analysis {
+	background-color: #1287BF;
+}
+
+.form {
+	width: 400px;
+	margin: 0 auto;
+	background-color: #FFFFFF;
+}
+
+/* get_in_touch
+****************************************/
+.get_in_touch {
+	background-color: #2A2A2A;
+}
 
 
 
-
-
-
-
-
-
-
-
-
-
-
+/* analysis
+****************************************/
+footer {
+	background-color: #515151;
+	text-align: center;
+	padding: 25px 0 30px;
+}
