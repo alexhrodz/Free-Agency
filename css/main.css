@@ -128,6 +128,7 @@ nav ul li {
 #our_approch {
 	background-color: #F3F3F3;
 	color: #424242;
+	padding-bottom: 100px;
 }
 
 #our_approch .info p {
@@ -186,6 +187,11 @@ nav ul li {
 	left: 290px;
 }
 
+.approch_right {
+	text-align: right;
+}
+
+
 .approch_right span {
 	top: 70px;
 	left: -50px;
@@ -210,19 +216,37 @@ nav ul li {
 
 
 
-
-
-
-
-
-
-
 /* our_work
 ****************************************/
 #our_work {
 	background-color: #DE2B24;
 }
 
+#our_work .info:after {
+	content: '';
+	display: block;
+	width: 46px;
+	height: 6px;
+	background-color: white;
+	margin: 9px auto 40px;
+}
+
+#our_work h2 {
+	font-size: 4.1rem;
+	font-weight: bold;
+	padding-top: 70px;
+}
+
+.foto_galery {
+	margin: 0 auto;
+}
+
+.foto_galery img {
+	margin: -2px;
+	padding: 0;
+	border: none;
+	width: 25%;
+}
 /* analysis
 ****************************************/
 #analysis {
@@ -239,9 +263,58 @@ nav ul li {
 ****************************************/
 .get_in_touch {
 	background-color: #2A2A2A;
+	padding: 90px 0 80px 0;
+	text-align: center;
 }
 
+.get_in_touch h4 {
+	color: white;
+	font-weight: bold;
+	font-size: 2.8rem;
+}
 
+.get_in_touch p {
+	color: white;
+}
+
+.form_control {
+	width: 683px;
+	height: 54px;
+	background-color: #515151;
+	border: none;
+	color: #BEBEBE;
+	padding-left: 20px;
+	margin-bottom: 25px;
+}
+
+.touch_btn {
+	padding: 18px 48px;
+	background-color: #2A2A2A;
+	border-radius: 5px;
+	color: white;
+	border: 2px solid #515151;
+}
+
+.touch_social li {
+	display: inline-block;
+	width: 45px;
+	height: 45px;
+	border: 2px solid #515151;
+	border-radius: 5px;
+	margin: 0 5px;
+
+}
+
+#get_in_touch {
+	padding-left: 0px;
+} 
+
+.touch_social li a {
+	color: white;
+}
+.fa {
+	margin-top: 12px;
+}
 
 /* analysis
 ****************************************/
@@ -249,4 +322,5 @@ footer {
 	background-color: #515151;
 	text-align: center;
 	padding: 25px 0 30px;
+	color: white;
 }
