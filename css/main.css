@@ -3,9 +3,7 @@
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-* {
-	border: 1px solid #999;
-}
+
 body {
 	padding: 0;
 }
@@ -28,40 +26,195 @@ nav ul li {
 
 /* banner
 ****************************************/
+.info {
+	text-align: center;
+	display: block;
+	color: white;
+	font-size: 2.6rem;
+}
+
+.info h1{
+	font-weight: bold;
+}
 
 .banner {
 	background: url(../img/fon1.png) no-repeat top center;
 	background-size: cover;
 	text-align: center;
+	padding: 180px 0 235px;
 }
 
+.banner .btn {
+	padding: 10px 30px;
+}
+
+.banner a {
+	background-color: #F8CD53;
+	text-transform: uppercase;
+	color: white;
+	font-size: 2.1rem;
+	font-weight: bold;
+	border-radius: 10px;
+}
 
 
 /* our_services
 ****************************************/
-.info {
+#our_services, #our_services p  {
+	color: #424242;
 	text-align: center;
-	display: block;
 }
+
+#our_services h2, #our_approch h2 {
+	color: #424242;
+	font-size: 4.1rem;
+	font-weight: bold;
+	padding-top: 50px;
+}
+
+#our_services p, #our_approch p {
+	margin-top: -9px;
+	padding-top: 15px;
+	font-size: 1.4rem;
+}
+
+#our_services .info p, #our_approch .info p {
+	margin-top: -9px;
+	padding-top: 15px;
+	font-size: 1.8rem;
+}
+
+#our_services .info:after, #our_approch .info:after {
+	content: '';
+	display: block;
+	width: 46px;
+	height: 6px;
+	background-color: #424242;
+	margin: 9px auto 40px;
+}
+
+.icon {
+	display: block;
+	width: 84px;
+	height:84px;
+	margin: 0 auto;
+	background: url(../img/icon1.png) no-repeat 50% 50%;
+}
+
+.icon2 {
+	background: url(../img/icon2.png) no-repeat 50% 50%;
+}
+
+.icon3 {
+	background: url(../img/icon3.png) no-repeat 50% 50%;
+}
+
+#our_services h3 {
+	font-weight: bold;
+}
+
+
+
+#our_services .col-md-4 {
+	padding-left: 40px;
+	padding-right: 40px;
+}
+
+
 
 
 /* our_approch
 ****************************************/
 #our_approch {
 	background-color: #F3F3F3;
+	color: #424242;
 }
 
-span {
+#our_approch .info p {
+	color: #424242;
+}
+
+.step_fon1, .step_fon3 {
+	background: white url(../img/step_fon1.png) no-repeat center center;
+	height: 235px;
+	width: 340px;
+	float: left;
+	margin-right: 90px;
+}
+
+
+.step_fon2, .step_fon4 {
+	background: url(../img/step_fon2.png) no-repeat center center;
+	height: 235px;
+	width: 340px;
+	float: right;
+	margin-left: 92px;
+}
+
+.step_fon3 {
+	background: white url(../img/step_fon3.png) no-repeat center center;
+}
+
+.step_fon4 {
+	background: white url(../img/step_fon4.png) no-repeat center center;
+}
+
+.approch_block {
+	box-shadow: 0 0 5px #EBEBEB;
+	border-radius: 5px;
+	background-color: white;
+	height: 235px;
+	margin-bottom: 35px;
+}
+
+.content {
+	width: 700px;
 	display: inline-block;
-	position: relative;
-	width: 40px;
-	height: 40px;
-	background-color: #26C851;
+	padding: 50px 50px 50px 0;
 }
 
-.position_right span {
-	background-color: #2432C7;
+.content h4 {
+	font-weight: bold;	
 }
+
+.approch_block span {
+	display: block;
+	height: 105px;
+	width: 105px;
+	position: relative;
+	top: 70px;
+	left: 290px;
+}
+
+.approch_right span {
+	top: 70px;
+	left: -50px;
+}
+
+.step1 {
+	background: url(../img/step1.png) no-repeat center left;
+}
+
+.step2 {
+	background: url(../img/step2.png) no-repeat center right;
+}
+
+.step3 {
+	background: url(../img/step3.png) no-repeat center left;
+}
+
+.step4 {
+	background: url(../img/step4.png) no-repeat center right;
+}
+
+
+
+
+
+
+
+
+
 
 
 /* our_work
