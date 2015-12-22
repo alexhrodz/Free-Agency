@@ -8,19 +8,101 @@ body {
 	padding: 0;
 }
 
-header {
-	height: 45px;
-	background-color: #F0F2F4;
-}
-
-
 section {
 	width: 100%;
 	display: block;
 
 }
 
+#header {
+	width: 100%;
+	height: 45px;
+	background-color: #F0F2F4;
+}
+
+
+.contackts {
+	display: inline-block;
+}
+
+.fb_icon {
+	display: inline-block;
+	float: right;
+	position: relative;
+	top: -4px;
+	width: 26px;
+	height: 26px;
+	background: url(../img/fb_icon.png) no-repeat top center;
+}
+
+.mail_phone li {
+	display: inline-block;
+}
+
+.mail_phone li a {
+	color: #424242;
+}
+
+.contackts {
+	padding-right: 90px;
+	padding-top: 11px;
+}
+
+.contackts .fa {
+	margin: 0 3px;
+}
+/* nav
+****************************************/ 
+
 nav ul li {
+	display: inline-block;
+}
+
+.logo {
+	display: block;
+	float: left;
+	width: 242px;
+	height: 51px;
+	background: url(../img/logo.png) no-repeat top center;
+	margin-left: 100px;
+}
+
+.nav_menu .baton {
+	padding: 8px 18px;
+	background-color: red;
+	color: white;
+	font-weight: bold;
+	float: right;
+	margin-right: 100px;
+}
+
+.nav_menu {
+	padding: 35px 0;
+	overflow: hidden;
+}
+
+.nav_menu li a {
+	color: #424242;
+	font-weight: bold;
+	margin: 5px;
+}
+
+.nav_menu li:first-child a {
+	color: red;
+
+}
+
+.nav_menu ul {
+	float: right;
+	margin-top: 10px;
+	margin-right: 20px;
+}
+
+.disk_dekor {
+	background-color: #424242;
+	width: 6px;
+	height: 6px;
+	border-radius: 50px;
 	display: inline-block;
 }
 
@@ -128,23 +210,91 @@ nav ul li {
 #our_approch {
 	background-color: #F3F3F3;
 	color: #424242;
-}
-
-span {
-	display: inline-block;
-	position: relative;
-	width: 40px;
-	height: 40px;
-	background-color: #26C851;
-}
-
-.position_right span {
-	background-color: #2432C7;
+	padding-bottom: 100px;
 }
 
 #our_approch .info p {
 	color: #424242;
 }
+
+.step_fon1, .step_fon3 {
+	background: white url(../img/step_fon1.png) no-repeat center center;
+	height: 235px;
+	width: 340px;
+	float: left;
+	margin-right: 90px;
+}
+
+
+.step_fon2, .step_fon4 {
+	background: url(../img/step_fon2.png) no-repeat center center;
+	height: 235px;
+	width: 340px;
+	float: right;
+	margin-left: 92px;
+}
+
+.step_fon3 {
+	background: white url(../img/step_fon3.png) no-repeat center center;
+}
+
+.step_fon4 {
+	background: white url(../img/step_fon4.png) no-repeat center center;
+}
+
+.approch_block {
+	box-shadow: 0 0 5px #EBEBEB;
+	border-radius: 5px;
+	background-color: white;
+	height: 235px;
+	margin-bottom: 35px;
+}
+
+.content {
+	width: 700px;
+	display: inline-block;
+	padding: 50px 50px 50px 0;
+}
+
+.content h4 {
+	font-weight: bold;	
+}
+
+.approch_block span {
+	display: block;
+	height: 105px;
+	width: 105px;
+	position: relative;
+	top: 70px;
+	left: 290px;
+}
+
+.approch_right {
+	text-align: right;
+}
+
+
+.approch_right span {
+	top: 70px;
+	left: -50px;
+}
+
+.step1 {
+	background: url(../img/step1.png) no-repeat center left;
+}
+
+.step2 {
+	background: url(../img/step2.png) no-repeat center right;
+}
+
+.step3 {
+	background: url(../img/step3.png) no-repeat center left;
+}
+
+.step4 {
+	background: url(../img/step4.png) no-repeat center right;
+}
+
 
 
 
@@ -154,6 +304,31 @@ span {
 	background-color: #DE2B24;
 }
 
+#our_work .info:after {
+	content: '';
+	display: block;
+	width: 46px;
+	height: 6px;
+	background-color: white;
+	margin: 9px auto 40px;
+}
+
+#our_work h2 {
+	font-size: 4.1rem;
+	font-weight: bold;
+	padding-top: 70px;
+}
+
+.foto_galery {
+	margin: 0 auto;
+}
+
+.foto_galery img {
+	margin: -2px;
+	padding: 0;
+	border: none;
+	width: 25%;
+}
 /* analysis
 ****************************************/
 #analysis {
@@ -170,9 +345,58 @@ span {
 ****************************************/
 .get_in_touch {
 	background-color: #2A2A2A;
+	padding: 90px 0 80px 0;
+	text-align: center;
 }
 
+.get_in_touch h4 {
+	color: white;
+	font-weight: bold;
+	font-size: 2.8rem;
+}
 
+.get_in_touch p {
+	color: white;
+}
+
+.form_control {
+	width: 683px;
+	height: 54px;
+	background-color: #515151;
+	border: none;
+	color: #BEBEBE;
+	padding-left: 20px;
+	margin-bottom: 25px;
+}
+
+.touch_btn {
+	padding: 18px 48px;
+	background-color: #2A2A2A;
+	border-radius: 5px;
+	color: white;
+	border: 2px solid #515151;
+}
+
+.touch_social li {
+	display: inline-block;
+	width: 45px;
+	height: 45px;
+	border: 2px solid #515151;
+	border-radius: 5px;
+	margin: 0 5px;
+
+}
+
+#get_in_touch {
+	padding-left: 0px;
+} 
+
+.touch_social li a {
+	color: white;
+}
+.fa {
+	margin-top: 12px;
+}
 
 /* analysis
 ****************************************/
@@ -180,4 +404,5 @@ footer {
 	background-color: #515151;
 	text-align: center;
 	padding: 25px 0 30px;
+	color: white;
 }
