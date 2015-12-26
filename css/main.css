@@ -141,6 +141,10 @@ nav ul li {
 
 /* our_services
 ****************************************/
+#our_services {
+	padding-bottom: 130px;	
+}
+
 #our_services, #our_services p  {
 	color: #424242;
 	text-align: center;
@@ -216,7 +220,7 @@ nav ul li {
 	padding: 0;
 }
 
-#our_approch .container {
+#our_approch .container, #our_work .container  {
 	max-width: 1024px;
 }
 
@@ -233,7 +237,7 @@ nav ul li {
 }
 
 .approch_block {
-	box-shadow: 0 0 5px #EBEBEB;
+	box-shadow: 0 0 6px #EBEBEB;
 	border-radius: 10px;
 	background-color: white;
 	margin-bottom: 35px;
@@ -277,6 +281,11 @@ nav ul li {
 	background: url(../img/step_fon4.png) no-repeat;
 }
 
+
+#our_approch .approch_right {
+	text-align: right;
+}
+
 #our_approch .approch_right .col-md-4{
 	float: right;
 }
@@ -289,6 +298,7 @@ nav ul li {
 ****************************************/
 #our_work {
 	background-color: #DE2B24;
+	padding-bottom: 120px;
 }
 
 #our_work .info:after {
@@ -320,13 +330,80 @@ nav ul li {
 ****************************************/
 #analysis {
 	background-color: #1287BF;
+	padding-top: 50px;
+	padding-bottom: 110px;
 }
 
 .form {
-	width: 400px;
+	width: 680px;
 	margin: 0 auto;
 	background-color: #FFFFFF;
+	text-align: center;
+	padding: 40px 20px 66px;
+	position: relative;
+	margin-top: 60px;
 }
+
+.form_default {
+	display: inline-block;
+}
+
+.analysis_form {
+	border-radius: 5px;
+	width: 450px;
+	padding: 16px;
+	margin-bottom: 8px;
+	border: 1px solid #BBB;
+}
+
+.analysis_btm {
+	border-radius: 5px;
+	background-color: #DE2B24;
+	border: none;
+	padding: 15px 30px;
+	color: white;
+	font-weight: bold;
+	margin-top: 26px;
+}
+
+.form_closed {
+	width: 49px;
+	height: 49px;
+	display: block;
+	position: absolute;
+	background-color: red;
+	border-radius: 50px;
+	top: -24px;
+	right: -24px;
+	background: url(../img/closed.png) no-repeat center center;
+}
+
+#analysis .form:before {
+	content: '';
+	position: absolute;
+	left: 46%;
+	top: -60px;
+	border: 30px solid transparent; 
+    border-bottom: 30px solid white;
+}
+
+
+
+.form p {
+	margin-bottom: 40px;
+}
+
+.form_open {
+	display: inline-block;
+	margin: 20px auto;
+	background: url(../img/open.png) no-repeat center center;
+	width: 64px;
+	height: 64px;
+}
+
+
+
+
 
 /* get_in_touch
 ****************************************/
@@ -429,6 +506,33 @@ footer {
 	float: none;;
 }
 
-	
+#our_approch .approch_right {
+	text-align: left;
+}
+
+.form_control {
+	width: 300px;
+}
+
+.form {
+	width: 300px;
+	height: 450px;
+}
+
+.analysis_form {
+	width: 240px;
+}
+
+.navbar-form {
+	padding: 0;
+	width: 100%;
+}
+
+#analysis .form:before {
+	left: 40%;
+}
+
+
+
 }
 
